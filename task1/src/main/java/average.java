@@ -7,11 +7,14 @@ public class average {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int avr = (a+b+c)/3;
-        System.out.println("average="+avr);
-        int half_avr = avr/2;
-        if (half_avr > 3) {
-            System.out.println("Программа выполнена корректно");
+        int sum = a + b + c;
+        if (sum >= 3) {
+            int avr = (a + b + c) / 3;
+            System.out.println("average=" + avr);
+            int half_avr = avr / 2;
+            if (half_avr > 3) {
+                System.out.println("Программа выполнена корректно");
+            }
         }
     }
 }
