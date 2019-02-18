@@ -11,7 +11,10 @@ public class average {
         float avr = (a + b + c) / 3;
         System.out.println("average=" + avr);
         float half_avr = avr / 2;
-        if (half_avr > 3){
+        int z;
+        z = (int)half_avr;
+
+        if (z > 3){
             System.out.println("Программа выполнена корректно");
             }
         }
