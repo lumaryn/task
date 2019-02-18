@@ -13,7 +13,7 @@ public class task9 {
             }
         }
         i=0;
-        //for (i = 0; /*i < a.length; i++)*/ {
+        //for (i = 0; i < a.length; i++){
             for (j = 0; j < a[i].length; j++)
                 System.out.print(a[i][j] * 3+", ");
                 }
