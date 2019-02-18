@@ -6,15 +6,15 @@ public class task9 {
         int a[][] = new int[3][4];
         int i;
         int j;
-        for (i = 0; i < 3; i++) {
-            for (j = 0; j < 4; j++) {
+        for (i = 0; i < a.length; i++) {
+            for (j = 0; j < a[i].length; j++) {
                 System.out.println("Введите число");
                 a[i][j] = sc.nextInt();
             }
         }
-            for (i = 0; i < 3; i++) {
-                for (j = 0; j < 4; j++)
-                    System.out.print(a[i][j] * 3+", ");
-            }
-        }
+        i=0;
+        //for (i = 0; /*i < a.length; i++)*/ {
+            for (j = 0; j < a[i].length; j++)
+                System.out.print(a[i][j] * 3+", ");
+                }
     }
